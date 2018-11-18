@@ -13,7 +13,7 @@ project at least contains a `package.json` or `jest.config.js` file.
 
 Afterwards you can test your code with docker:
 ```console
-$ docker run --rm -t -v $(pwd):/code --workdir /code code-freak/jest:latest jest
+$ docker run --rm -t -v $(pwd):/code --workdir /code cfreak/jest:latest jest
 ```
 
 You can try this inside the `example` directory which contains a simple
